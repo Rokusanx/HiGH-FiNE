@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+.container {
+   
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+
+
+main{
+    background-color: black;
+}
+
+/*ヘッダー*/
+header {
+    background-color: gray;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header>.container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    max-width:none;
+    padding: 0 60px;
+}
+
+/*ロゴ*/
+.area_logo_header .logo {
+    display: block;
+}
+
+.area_logo_header img {
+    height: 90px;
+    vertical-align: bottom;
+}
+
+/*ヘッダーナビ*/
+.nav_header{
+    margin: 0 0 0 auto;
+}
+
+.list_nav_header {
+    display: flex;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.list_nav_header > li{
+    padding: 0 15px;
+}
+
+.list_nav_header a{
+    color: #fff;
+    font: 400 18px/1em 'futura', 'noto sans japanese', sans-serif;
+}
+
+/*トップビュー*/
+.area_top_view {
+    margin-top: 90px;
+    height: 500spx;
+    background-color: #202020;
+}
+
+/*about*/
+.area_top_view >.container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.area_home_About{
+    margin-bottom: 180px;
+}
+
+.head_home .ttl{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font: 400 85px/1em 'impact';
+    padding: 20px;
+    color:#fff;
+}
+
+.select .ttl{
+    color:#fff;
+}
+
+.area_home_About .select img{
+    margin-bottom: 20px;
+}
+
+.area_home_About .select .ttl{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 60px 100px ;
+}
+
+.select_block{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px  ;
+    background-color: gray;
+    height: 450px;
+    text-align: center;
+}
+
+/*crossfade*/
+
+
+.body_home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.body_home2 .ill{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.ill img{
+    width: 50%;
+}
+
+.note{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+p{
+    font: 100 35px/1em 'Yu Gothic';
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Arial Black';
+    font-weight: bold;
+    padding: 30px;
+    font-size: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    h3{
+        font-size: 32px;
+    }
+    p{
+        font-size: 24px;
+    }
+    .select img{
+        width: 300%;
+        height: 300%;
+        margin: auto;  
+        padding-right: 50px;     
+        
+    }
+    .area_top_view .container img{
+        width: 100%;
+    }
+    .area_top_view {
+        height: 300px;
+    }
+    .area_top_view img{
+        padding: 0 0 200px;
+        }
+    .select_block{
+        padding-right: 30px;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        height: 750px;
+    }
+    .area_home_About .select .ttl{
+        width:150px;
+        padding: 5px 10px 0 10px ;
+        font-size: 20px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    p7{
+        align-items: center;
+        justify-content: center;
+        width:10px;
+        font-size: 15px;
+    }
+    p8{
+        font-size: 10px;
+    }
+    .area_home_About{
+        height: 730px;
+    }
+   .head_home .ttl{
+    font-size: 50px;
+   }
+   header .container{
+    padding: 0 10px;
+   }
+   .list_nav_header a{
+    font-size: 10px;
+   }
+   .list_nav_header li {
+    width: 45px;
+    padding: 0 5px;
+    margin-right: 20px;
+   }
+
+   .select{
+    padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+   }
+}
+
+.area_home_Artworks{
+    margin-top: 80px;
+}
+
+.mttl {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    font: 400 18px/1em 'Ayuthaya';
+    font-size: 30px;
+}
+/*icons*/
+.list_sns {
+ 
+  }
+
+.list_sns > li {
+    padding: 0 10px;
+}
+
+.icons > .list_sns{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+}
+
+p1{
+    color:#fff
+}
+
+p4{
+    color: #fff;
+}
+
